@@ -1,7 +1,7 @@
 export const HeaderItem = ({Icon, title}) => {
   return (
     <>
-      <Icon/>
+      <Icon className='h-8 mb-1'/>
       <p>{title}</p>
     </>
   )
