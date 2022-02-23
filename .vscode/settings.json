@@ -1,8 +1,1 @@
-{
-  "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
-  "prettier.proseWrap": "always",
-  "prettier.jsxBracketSameLine": true,
-  "files.autoSave": "afterDelay",
-  "editor.tabSize": 2
-}
+{}
