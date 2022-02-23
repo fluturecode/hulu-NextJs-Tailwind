@@ -24,5 +24,11 @@ export async function getServerSideProp(context) {
     `https://api.themoviedb.org/3${
       requests[genre]?.url || requests.fetchTrending.url
     }`,
-  );
+  ).then(res => res.json());
+
+  return {
+    props: {
+      results: request.results,
+    },
+  };
 }
