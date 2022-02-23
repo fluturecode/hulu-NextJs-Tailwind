@@ -3,8 +3,7 @@ import { Header, Nav } from '../components';
 import { Results } from '../components/Results';
 import requests from '../utils/requests';
 
-export default function Home(props) {
-  console.log(props);
+export default function Home() {
   return (
     <div>
       <Head>
