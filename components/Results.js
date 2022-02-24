@@ -1,5 +1,11 @@
 import React from 'react';
 
-export const Results = () => {
-  return <div>Results</div>;
+export const Results = ({ results }) => {
+  return (
+    <div>
+      {requests.map(result => (
+        <Thumbnail key={result.id} result={result} />
+      ))}
+    </div>
+  )
 };
