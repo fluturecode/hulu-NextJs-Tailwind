@@ -1,5 +1,12 @@
 import React from 'react';
+import { Thumbnail } from './Thumbnail';
 
-export const Results = () => {
-  return <div>Results</div>;
+export const Results = ({ results }) => {
+  return (
+    <div>
+      {results.map(result => (
+        <Thumbnail key={result.id} result={result} />
+      ))}
+    </div>
+  )
 };
