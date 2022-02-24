@@ -1,9 +1,10 @@
 import React from 'react';
+import { Thumbnail } from './Thumbnail';
 
 export const Results = ({ results }) => {
   return (
     <div>
-      {requests.map(result => (
+      {results.map(result => (
         <Thumbnail key={result.id} result={result} />
       ))}
     </div>
