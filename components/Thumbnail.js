@@ -15,6 +15,12 @@ export const Thumbnail = ({ result }) => {
       height={1080}
       width={1920}
     />
+    <div className='2'>
+      <p className='truncate max-w-md'>{result.overview}</p>
+      <h2>
+        {result.title || result.original_name}</h2>
+        <p></p>
+    </div>
   </div>
   );
 };
