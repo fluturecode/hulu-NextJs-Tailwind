@@ -8,5 +8,5 @@ export const Results = ({ results }) => {
         <Thumbnail key={result.id} result={result} />
       ))}
     </div>
-  )
+  );
 };
