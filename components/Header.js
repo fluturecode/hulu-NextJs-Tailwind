@@ -21,7 +21,7 @@ export const Header = () => {
         <HeaderItem title='SEARCH' Icon={SearchIcon} />
         <HeaderItem title='ACCOUNT' Icon={UserIcon} />
       </div>
-      <Image className='object-contain' src={logo} width={150} height={75} />
+      <Image className='object-contain' src={logo} width={150} height={75} alt='movie logo'/>
     </header>
   );
 };
