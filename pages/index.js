@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import { Header, Nav } from '../components';
-import { Results } from '../components/Results';
+import { Header, Nav, Results } from '../components';
 import requests from '../utils/requests';
 
 export default function Home({ results }) {
